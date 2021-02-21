@@ -1,0 +1,17 @@
+#yapamadıııımmmm !!!
+
+
+class yemek() :
+    def __init__(self,isim,icindekiler,yapilma_sureci,pisme_suresi):
+        self.isim = isim
+        self.icindekiler = icindekiler
+        self.yapilma_sureci = yapilma_sureci
+        self.pisme_suresi = pisme_suresi
+        
+def pisirme(self) :
+    print("pisirme süresi"+ self.pisme_suresi + "kadardır.")        
+
+yemek1 = yemek("pizza","un,süt,maya,peynir,salam,kaşar","hamuru yogur malzemeleri üzerine koy pisir",50)
+yemek2 = yemek("omlet","yag, yumurta ,peynir","yagı kızart yumurta ve peyniri ekle pisir",5)
+yemek3 = yemek("kek","yag, yumurta ,süt,kabartmatozu ,vanilya,seker","malzemeleri birleştir çırp kalıba dök pisir.",35)
+        
